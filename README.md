@@ -30,7 +30,7 @@ Use this following endpoints to add transactions get the balances and spend poin
 
 ### Get All Transactions
 ```bash
- /get_all
+ /get_all/
  ```
  #### Method: GET 
 #### Response:
@@ -44,7 +44,7 @@ Use this following endpoints to add transactions get the balances and spend poin
         ]
  ### Add Transaction 
  ```bash  
- /add_transaction 
+ /add_transaction/
  ```
  #### Method: POST       
 #### Request Body:        
@@ -59,7 +59,7 @@ Use this following endpoints to add transactions get the balances and spend poin
             }
 ### Add Bulk Transactions
 ```bash
-/add_bulk_transactions
+/add_bulk_transactions/
 ```
  #### Method: POST   
 #### Request Body:
@@ -78,7 +78,7 @@ Use this following endpoints to add transactions get the balances and spend poin
         }
 ### Spend Points
 ```bash
-/spend
+/spend/
 ```
  #### Method: POST   
 #### Request Body:
@@ -95,7 +95,7 @@ Use this following endpoints to add transactions get the balances and spend poin
         ]
 ### Get Balance
 ```bash
-/balance
+/balance/
 ```
  #### Method: GET
 #### Response:
