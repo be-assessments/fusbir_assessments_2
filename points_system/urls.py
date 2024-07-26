@@ -21,9 +21,9 @@ from transactions import views
 urlpatterns = [
     path('get_all', views.GetAllTransactionsView.as_view(), name='get_all_transactions'),
     path('add_transaction', views.AddTransactionView.as_view(), name='add_transaction'),
-    path('add_bulk_transactions/', views.AddBulkTransactionsView.as_view(), name='add_bulk_transactions'),
-    path('spend/', views.SpendPointsView.as_view(), name='spend_points'),
-    path('balance/', views.GetBalanceView.as_view(), name='get_balance'), 
+    path('add_bulk_transactions', views.AddBulkTransactionsView.as_view(), name='add_bulk_transactions'),
+    path('spend', views.SpendPointsView.as_view(), name='spend_points'),
+    path('balance', views.GetBalanceView.as_view(), name='get_balance'), 
 ]
 
 
