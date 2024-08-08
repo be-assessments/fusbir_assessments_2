@@ -13,9 +13,11 @@ git clone https://github.com/be-assessments/fusbir_assessment_2.git
 cd fusbir_assessment_2
 code .
 ```
-2. Install django 
+2. Install django and run migration
 ```bash
  pip install django
+ pip install djangorestframework
+python manage.py migrate
 ```
 3. Run the app locally
 ```bash
